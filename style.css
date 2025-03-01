@@ -1,0 +1,155 @@
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+div {
+    display: inline-block; /* Allow divs to sit next to each other */
+    width: 24%; /* Default width for larger screens */
+    margin: 5px; /* Space between divs */
+    padding: 2px; /* Padding inside divs */
+    box-sizing: border-box; /* Include padding and border in width */
+    text-align: center; /* Center text inside divs */
+}
+
+div img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Query for Tablet View (trigger at 772px) */
+@media (max-width: 772px) {
+    div {
+        width: 45%; /* Change div width to 45% */
+        margin: 10px; /* Adjust margin for better spacing */
+    }
+
+    div img {
+        max-height: 30vh; /* Ensure images are no more than 30% of viewport height */
+        width: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Media Query for Large Screen View (trigger at 998px) */
+@media (min-width: 998px) {
+    div {
+        width: 30%; /* Change div width to 30% */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
